@@ -1,0 +1,12 @@
+Para juntar duas linhas que estão uma de baixo da outra sem precisar escrever tudo em uma só 
+sprint ('Teste', end=' ' )
+sprint ('Continuação linha')
+
+Resultado seria :
+
+Teste Continuação linha
+
+Sem o end :
+
+Teste
+Continuação linha

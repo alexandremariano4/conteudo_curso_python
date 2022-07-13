@@ -1,0 +1,6 @@
+nome = str(input('Digite seu nome completo: ')).strip()
+print(f'Nome com todas letras maiúsculas: {nome.upper()}')
+print(f'Nome com todas letras minúsculas: {nome.lower()}')
+nome1 = ''.join(nome.strip().split())
+print(f'Letras sem considerar espaços: {len(nome1)+1}')
+print(f'Letras no primeiro nome: {len(nome.split()[0])}')

@@ -1,0 +1,14 @@
+*Apagando vazio de string*
+
+frase.strip() -> Apaga o vazio antes da string e depois
+frase.rstrip() -> Apaga o vazio somente do lado direito da string
+frase.lstrip() -> Apaga o vazio somente do lado esquerdo da string
+
+*Divir string*
+
+frase.split() -> recorta a string onde tem os espaços 
+[Curso] [Em] [Video] [Python]
+
+'-'.join(frase)
+Curso-Em-Video-Python
+
